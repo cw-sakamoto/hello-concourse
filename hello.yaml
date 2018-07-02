@@ -9,4 +9,4 @@ run:
     args:
     - -c
     - |
-      echo "Hello World"
+      echo "Hello World on ubuntu"

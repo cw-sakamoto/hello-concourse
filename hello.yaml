@@ -3,10 +3,10 @@ platform: linux
 image_resource:
     type: docker-image
     source:
-        repository: ubuntu
+        repository: alpine
 run:
     path: sh
     args:
     - -c
     - |
-      echo "Hello World on ubuntu"
+      echo "Hello World on alpine"
